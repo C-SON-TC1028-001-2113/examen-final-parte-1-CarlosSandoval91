@@ -6,7 +6,7 @@ def main():
     if cont<=6:
         if num < 0:
             numero= num*-1
-            n=int(inv[::-1])
+            n=int(str(numero)[::-1])
             m=n*-1
             print(m)
         else:
